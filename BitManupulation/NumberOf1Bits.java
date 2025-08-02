@@ -8,6 +8,7 @@ public class NumberOf1Bits {
         n=n&(n-1);
         count++;
       }
-      System.out.println("The Number of 1 bit in "+temp+" is "+count);
+        
+      System.out.println("Hamming Weight in "+temp+" is "+count);
   }
 }
